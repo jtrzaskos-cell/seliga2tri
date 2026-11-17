@@ -75,30 +75,34 @@
 </section>
 
 <!--Videos-->
-<section class="videos" id="videos">
-    <h1>Meus Videos Favoritos</h1>
-    <iframe
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/urkuHAqwgFc?si=CuNzRP5Vbt546c0o"
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-    </iframe>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/DZIASl9q90s?si=0n2TM-S5ESHkxNjv" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
+<div class="video-dropdown">
+    <details>
+        <summary>Escolher vídeo</summary>
+
+        <div class="video-opcoes">
+            <a href="#video1">Vídeo 1</a>
+            <a href="#video2">Vídeo 2</a>
+        </div>
+    </details>
+</div>
+
+<div class="video-player" id="video1">
+    <iframe
+        src="https://www.youtube.com/embed/urkuHAqwgFc"
+        title="Vídeo 1"
+        allowfullscreen>
     </iframe>
-</section>
+</div>
+
+<div class="video-player" id="video2">
+    <iframe
+        src="https://www.youtube.com/embed/DZIASl9q90s"
+        title="Vídeo 2"
+        allowfullscreen>
+    </iframe>
+</div>
+
 
 <!--local-->
 <section class="Localização" id="local">
