@@ -226,3 +226,9 @@ ul li a {
 ul li a:hover {
     background-color: #412D15;
 }
+
+.voltar {
+    display: flex;
+    justify-content: flex-end;
+
+}
