@@ -230,7 +230,5 @@ ul li a:hover {
 .voltar {
     display: flex;
     justify-content: flex-end;
-    text-decoration: none;
-    color: #FFFFFF;
     margin-right: 20px;
 }
