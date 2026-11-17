@@ -6,8 +6,9 @@ box-sizing: border-box;
 body{
 font-family: "Poppins", sans-serif;
 }
+
 header{
-background-color: #424e61;
+background-color: #000000;
 color: white;
 width: 100%;
 padding: 20px;
@@ -19,7 +20,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.cabecalho-imagem{
+.cabecalho_imagem {
 width: 10%;
 display: flex;
 justify-content: flex-start;
@@ -31,46 +32,120 @@ text-align: center;
 width: 50%;
 font: 30px;
 }
-.sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
+.sociais {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
+
+.icone-social {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    display: block;
+}
+/*banner*/
 .banner1{
 display: flex;
 justify-content: center;
 }
-.estudante_titulo{
-padding: 50px;
-text-align: center;
 
-}
-.estudante-nome{
-text-align: center;
-}
-.estudante-imagem{
-width: 120px;
-}
-.estudante-icone{
-width: 38px;
-padding: 4px 8px;
-}
-.estudante{
-background-image: background-color(#faae43);
-padding: 24px 0;
+.banner_image {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-.estudante.div{
-text-align: center;
-padding: 24px 0;
+/*Sobre mim */
+.sobre-mim {
+    background-color: #000000;
+    color: #FFFFFF;
 }
-.estudantes_todos{
-display: flex;
-justify-content: space-around;
+
+.sobre-titulo {
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
-.escola{
-background-image: linear-gradient(#40A2E3,#7FC2EF);
+.texto-sobre {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.sobre-mim p strong {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+/*Projetos*/
+.projetos {
+    padding: 40px 8%;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.projeto-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+
+.projeto_todos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.projeto-div {
+    display: grid;
+    grid-template-columns: 45% 1fr auto;
+    grid-template-areas:
+        "imagem titulo icone"
+        "imagem descricao descricao";
+    align-items: center;
+    gap: 15px 25px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.projeto-imagem {
+    grid-area: imagem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projeto-nome {
+    grid-area: titulo;
+    margin: 0;
+    font-size: 25px;
+}
+
+.projeto-icone {
+    display: block;
+    width: 38px;
+    height: 38px;
+}
+
+.texto-projeto {
+    grid-area: descricao;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/*rodape*/
+.rodape{
+background: #111111;
 color: white;
 display: flex;
 justify-content:center;
@@ -78,7 +153,7 @@ padding: 24px 0;
 text-align:center;
 display:block;
 }
-.escola-titulo{
+.rodape-titulo{
 padding: 50px;
 text-align: center;
 }
@@ -91,4 +166,28 @@ padding: 12px 0;
 .link{
 color: #ffffff;
 text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
