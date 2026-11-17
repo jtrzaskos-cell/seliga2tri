@@ -86,29 +86,6 @@ justify-content: center;
 }
 
 /*videos*/
-.videos {
-    padding: 35px;
-    background-color: #000000;
-    text-align: center;
-}
-
-.videos h1 {
-    color: #FFFFFF;
-    font-size: 32px;
-    margin-bottom: 35px;
-}
-
-.videos iframe {
-    width: 48%;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    border-radius: 12px;
-    margin: 10px;
-}
-
-
-/* DROPDOWN */
-
 .video-dropdown {
     display: flex;
     justify-content: center;
@@ -120,64 +97,36 @@ justify-content: center;
     width: 220px;
 }
 
-/* BOTÃO */
+
 .video-dropdown summary {
     list-style: none;
-    cursor: pointer;
-
-    background-color: #72c8ca;
-    color: #111;
-
+    background-color: #412D15;
+    color: #FFFFFF;
     padding: 14px 20px;
     border-radius: 8px;
-
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-
-    transition: 0.3s;
-}
-
-.video-dropdown summary::-webkit-details-marker {
-    display: none;
-}
-
-.video-dropdown summary::after {
-    content: " ▼";
-}
-
-.video-dropdown details[open] summary::after {
-    content: " ▲";
 }
 
 .video-dropdown summary:hover {
     background-color: #55abad;
 }
 
-/* OPÇÕES */
 .video-opcoes {
     position: absolute;
     top: 110%;
     left: 0;
-
     width: 100%;
-    background-color: #222;
-
-    border: 1px solid #72c8ca;
+    background-color: #000000;
     border-radius: 8px;
-
-    overflow: hidden;
-    z-index: 10;
 }
 
 .video-opcoes a {
     display: block;
     padding: 13px;
-
     color: white;
     text-decoration: none;
-
-    transition: 0.3s;
 }
 
 .video-opcoes a:hover {
@@ -185,10 +134,12 @@ justify-content: center;
     color: #111;
 }
 
-/* PLAYER */
+
 .video-player {
     margin: 20px auto;
     scroll-margin-top: 30px;
+    display: flex;
+    justify-content:center;
 }
 
 .video-player iframe {
@@ -196,8 +147,6 @@ justify-content: center;
     max-width: 800px;
     aspect-ratio: 16 / 9;
     height: auto;
-
-    border: 2px solid #72c8ca;
     border-radius: 12px;
 }
 
