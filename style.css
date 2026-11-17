@@ -5,12 +5,12 @@ box-sizing: border-box;
 }
 body{
 font-family: "Poppins", sans-serif;
-background-color: #000000;
+background-color: #5D866C;
+color: #FFFFFF;
 }
 /*cabeçalho*/
 header{
-background-color: #000000;
-color: white;
+background-color: #28301C;
 width: 100%;
 padding: 20px;
 }
@@ -60,13 +60,10 @@ justify-content: center;
 /*sobre mim*/
 .sobre-mim {
     padding: 40px;
-    background-color: #000000;
-    color: #FFFFFF;
 }
 
 
 .sobre-mim h1 {
-    color: #FFFFFF;
     font-size: 32px;
     margin-bottom: 25px;
     text-align: center;
@@ -82,7 +79,6 @@ justify-content: center;
 
 
 .sobre-mim .objetivo {
-    color: #FFFFFF;
     font-weight: bold;
 }
 
@@ -102,7 +98,6 @@ justify-content: center;
 .video-dropdown summary {
     list-style: none;
     background-color: #412D15;
-    color: #FFFFFF;
     padding: 14px 20px;
     border-radius: 8px;
     font-size: 16px;
@@ -119,14 +114,12 @@ justify-content: center;
     top: 110%;
     left: 0;
     width: 100%;
-    background-color: #000000;
     border-radius: 8px;
 }
 
 .video-opcoes a {
     display: block;
     padding: 13px;
-    color: white;
     text-decoration: none;
 }
 
@@ -155,12 +148,10 @@ justify-content: center;
 /* localização*/
 .Localização {
     padding: 35px;
-    background-color: #000000;
     text-align: center;
 }
 
 .Localização h1 {
-    color: #FFFFFF;
     font-size: 32px;
     margin-bottom: 30px;
 }
@@ -174,8 +165,7 @@ justify-content: center;
 
 /*rodape*/
 .rodape{
-background: #111111;
-color: white;
+background: #323D25;
 display: flex;
 justify-content:center;
 padding: 24px 0;
@@ -193,7 +183,6 @@ padding: 12px 0;
 }
 
 .link{
-color: #ffffff;
 text-decoration: none;
 }
 
@@ -202,7 +191,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #28301C;
 
     display: flex;
     flex-direction: row;
@@ -217,14 +206,13 @@ ul li {
 
 ul li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 
 ul li a:hover {
-    background-color: #412D15;
+    background-color: #D2CF9A;
 }
 
 .voltar {
