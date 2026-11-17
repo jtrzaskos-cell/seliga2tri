@@ -169,25 +169,30 @@ text-decoration: none;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 ul li {
-  float: left;
+    float: none;
+    width: auto;
 }
 
 ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #111111;
+    background-color: #E1DCC9;
 }
