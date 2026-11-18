@@ -118,7 +118,7 @@ justify-content: center;
 }
 
 .video-opcoes a {
-    background-color: #5D866C;
+    background-color: #323D25;
     color: #FFFFFF;
     display: block;
     padding: 13px;
@@ -208,6 +208,7 @@ ul li {
 }
 
 ul li a {
+    color: #FFFFFF;
     display: block;
     text-align: center;
     padding: 14px 20px;
@@ -215,6 +216,7 @@ ul li a {
 }
 
 ul li a:hover {
+    color: #FFFFFF;
     background-color: #D2CF9A;
 }
 
