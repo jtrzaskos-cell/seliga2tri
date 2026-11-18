@@ -106,7 +106,7 @@ justify-content: center;
 }
 
 .video-dropdown summary:hover {
-    background-color: #55abad;
+    background-color: #D2CF9A;
 }
 
 .video-opcoes {
@@ -119,6 +119,7 @@ justify-content: center;
 
 .video-opcoes a {
     background-color: #5D866C;
+    color: #FFFFFF;
     display: block;
     padding: 13px;
     text-decoration: none;
@@ -185,6 +186,7 @@ padding: 12px 0;
 
 .link{
 text-decoration: none;
+color: #FFFFFF;
 }
 
 /*menu*/
