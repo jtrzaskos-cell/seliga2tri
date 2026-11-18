@@ -225,3 +225,6 @@ ul li a:hover {
     justify-content: flex-end;
     margin-right: 20px;
 }
+.voltar p {
+    text-decoration: none;
+}
