@@ -225,7 +225,15 @@ ul li a:hover {
     justify-content: flex-end;
     margin-right: 20px;
 }
-.voltar p {
-    text-decoration: none;
-    color: #FFFFFF;
+
+.contato {
+    display: flex;
+    justify-content: center;
 }
+
+.contato h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
