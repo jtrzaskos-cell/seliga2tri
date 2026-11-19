@@ -227,7 +227,7 @@ ul li a:hover {
 }
 
 
-/* CONTATO */
+/* contato */
 .contato {
     display: flex;
     flex-direction: column;
@@ -263,6 +263,8 @@ ul li a:hover {
 .contato button:hover {
     background-color: #D2CF9A;
 }
+
+/*javascript*/
 
 html {
     scroll-behavior: smooth;
