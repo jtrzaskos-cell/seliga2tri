@@ -263,3 +263,7 @@ ul li a:hover {
 .contato button:hover {
     background-color: #D2CF9A;
 }
+
+html {
+    scroll-behavior: smooth;
+}
