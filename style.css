@@ -245,9 +245,13 @@ ul li a:hover {
     padding: 12px;
     margin: 10px 0 20px;
     border-radius: 6px;
-    color: #0000000;
+    color: #000000;
 }
 
 .contato .mensagem {
     height: 100px;
+}
+
+.contato button {
+    background-color: #28301C;
 }
