@@ -227,48 +227,27 @@ ul li a:hover {
 }
 
 
-/* SEÇÃO CONTATO */
+/* CONTATO */
 .contato {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 80%;
-    max-width: 500px;
-    margin: 60px auto;
-    padding: 30px;
-
-    background-color: #222;
-    border-radius: 12px;
-    color: white;
 }
 
-/* TÍTULO */
+
 .contato h1 {
-    color: #72c8ca;
     margin-bottom: 25px;
 }
 
-/* CAMPOS */
 .contato input {
     width: 100%;
     max-width: 350px;
     padding: 12px;
     margin: 10px 0 20px;
-
-    box-sizing: border-box;
-    border: 1px solid #72c8ca;
     border-radius: 6px;
-
-    background-color: #333;
-    color: white;
-    outline: none;
+    color: #0000000;
 }
 
-
-/* MENSAGEM */
 .contato .mensagem {
     height: 100px;
 }
-
-
