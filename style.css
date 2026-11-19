@@ -259,3 +259,7 @@ ul li a:hover {
     border: none;
     margin-bottom: 30px;
 }
+
+.contato button:hover {
+    background-color: #D2CF9A;
+}
