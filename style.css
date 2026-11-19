@@ -254,4 +254,8 @@ ul li a:hover {
 
 .contato button {
     background-color: #28301C;
+    padding: 15px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 30px;
 }
